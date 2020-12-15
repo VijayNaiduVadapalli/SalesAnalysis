@@ -267,7 +267,7 @@ ax1.bar(products , quantity_ordered,color='g')
 ax2.plot(products ,prices,'b-')
 
 ax2.set_xlabel('Product Name')
-ax1.set_ylabel('Quantity Ordered',color='g')
+ax1.set_ylabel('Quantity Ordered',color='b')
 ax2.set_ylabel('Price($)',color='b')
 ax1.set_xticklabels(products,rotation='vertical',size=8)
 
